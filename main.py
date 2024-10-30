@@ -20,3 +20,7 @@ df = pd.DataFrame([["M", 10,"A"], ["F", 15,"A"], ["F", 24,"D"],["M", 10,"D"],
 # print dataframe.
 df
 
+# simple list comprehension
+array1 = (2, 5, 8, 9)
+a = [i for i in array1 if i > 2]
+print(a)
